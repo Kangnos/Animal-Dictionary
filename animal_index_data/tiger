@@ -1,0 +1,92 @@
+<div class="boxcontainer">
+    <div class="box">
+        <a href="/tiger/Siberian tiger" class="image_atag">
+                <div class="image_div">
+                <img src="tiger image/sibera(amuru) tiger box image.jpg" alt="" class="AnimalImg">
+                </div>
+                <div class="box_name">
+                시베리아 호랑이
+                </div>
+        </a>
+    </div>
+    <div class="box">
+        <a href="tiger/South chinese tiger" class="image_atag">
+            <div class="image_div">
+                <img src="tiger image/South china tiger box image.jpg" alt="" class="AnimalImg">
+            </div>
+            <div class="box_name">
+                남중국 호랑이
+            </div>
+        </a>
+    </div>
+    <div class="box">
+        <a href="tiger/malayan tiger" class="image_atag">
+            <div class="image_div">
+                <img src="tiger image/malayan-tiger box image.jpg" alt="" class="AnimalImg">
+            </div>
+            <div class="box_name">
+                말레이 호랑이
+            </div>
+        </a>
+    </div>
+    <div class="box">
+        <a href="tiger/Javan tiger" class="image_atag">
+            <div class="image_div">
+                <img src="tiger image/Javan tiger box image.jpg" alt="" class="AnimalImg">
+            </div>
+            <div class="box_name">
+                자바 호랑이
+            </div>
+        </a>
+    </div>
+    <div class="box">
+        <a href="tiger/Bengal tiger" class="image_atag">
+            <div class="image_div">
+                <img src="tiger image/Bengal tiger box image.jpg" alt="" class="AnimalImg">
+            </div>
+            <div class="box_name">
+                뱅갈 호랑이
+            </div>
+        </a>
+    </div>
+    <div class="box">
+        <a href="tiger/Karspy tiger" class="image_atag">
+            <div class="image_div">
+                <img src="tiger image/Karspy tiger box image.jpg" alt="" class="AnimalImg">
+            </div>
+            <div class="box_name">
+                카스피 호랑이
+            </div>
+        </a>
+    </div>
+    <div class="box">
+        <a href="tiger/Balinese tiger" class="image_atag">
+            <div class="image_div">
+                <img src="tiger image/Balinese tiger box image.png" alt="" class="AnimalImg">
+            </div>
+            <div class="box_name">
+                발리 호랑이
+            </div>
+        </a>
+    </div>
+    <div class="box">
+        <a href="tiger/Indochinese tiger" class="image_atag">
+            <div class="image_div">
+                <img src="tiger image/Indochinese tiger box image.jpg" alt="" class="AnimalImg">
+            </div> 
+            <div class="box_name">
+                인도 차이나 호랑이
+            </div>
+        </a>
+    </div>
+    <div class="box">
+        <a href="tiger/Sumatran tiger" class="image_atag">
+            <div class="image_div">
+                <img src="tiger image/Sumatran tiger box image.jpg" alt="" class="AnimalImg">
+            </div>
+            <div class="box_name">
+                수마트라 호랑이
+            </div>
+        </a>
+    </div>
+</div>
