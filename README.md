@@ -7,3 +7,6 @@
 
 ### 0.2 ver 
 ## Expended page that just like "main_index -> n index -> n/j index". Like this.
+
+### 0.3 ver
+## Made webpage more dynamic
