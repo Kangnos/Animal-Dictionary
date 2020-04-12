@@ -6,7 +6,7 @@ var explain_page = require('./lib/explain.js')
 var main_page = require('./lib/main_index.js')
 var path = require('path')
 var compression = require('compression')
-app.use(compression())
+app.use(compression());
 
 app.use(express.static('public'));
 
