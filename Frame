@@ -1,0 +1,20 @@
+
+박스 프레임
+
+<div class="box">
+    <a href="./" class="image_atag">
+        <div class="image_div">
+            <img src="../" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            
+        </div>
+    </a>
+</div>
+
+
+
+
+
+

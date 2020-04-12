@@ -47,6 +47,7 @@ a{
 /* 여기 까지는 box container 스타일 코드 */
 .explaincontainer{
     margin-top: 40px;
+    padding-bottom: 50px;
 }
 .title{
     font-family: 'Times New Roman', Times, serif;
