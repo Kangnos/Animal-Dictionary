@@ -27,8 +27,9 @@ app.get('/tiger/:pageId', function(request, response){
                 var image_link = arr[2]
                 var image_explain = arr[3]
                 var index_tite = '호랑이(Tiger)'
+                var index_address = '../tiger/Tiger'
                 fs.readFile('data/tiger_data/Tiger box','utf8', function(err, body) {
-                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body);
+                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address);
                     response.send(details_page);
                 })
         });
@@ -45,8 +46,9 @@ app.get('/leopard/:pageId', function(request, response){
                 var image_link = arr[2]
                 var image_explain = arr[3]
                 var index_tite = '표범(Leopard)'
+                var index_address = '../leopard/Leopard'
                 fs.readFile('data/leopard_data/Leopard box','utf8', function(err, body) {
-                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body);
+                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address);
                     response.send(details_page);
                 })
         });
