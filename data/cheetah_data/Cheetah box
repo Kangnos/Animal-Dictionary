@@ -1,0 +1,45 @@
+<div class="box">
+    <a href="./Southern african cheetah" class="image_atag">
+        <div class="image_div">
+            <img src="../cheetah image/Southern african cheetah box image.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            남아프리카 치타
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./Tanzanian cheetah" class="image_atag">
+        <div class="image_div">
+            <img src="../cheetah image/Tanzanian cheetah box image.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            탄지니아 치타
+        </div>
+    </a>
+</div>
+
+<div class="box">
+    <a href="./Sudan cheetah" class="image_atag">
+        <div class="image_div">
+            <img src="../cheetah image/Sudan cheetah box image.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            수단 치타
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./Northwest african cheetah" class="image_atag">
+        <div class="image_div">
+            <img src="../cheetah image/Northwest african cheetah box image.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            북서아프리카 치타
+        </div>
+    </a>
+</div>
