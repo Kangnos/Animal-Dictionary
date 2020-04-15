@@ -10,3 +10,6 @@
 
 ### 0.3 ver
 ## Made webpage more dynamic
+
+### 0.4 ver
+## Made Tiger, Leopard dictionary
