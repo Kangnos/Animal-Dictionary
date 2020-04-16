@@ -14,5 +14,5 @@
 ### 0.4 ver
 ## Made Tiger, Leopard dictionary
 
-### 0.5 ㅍㄷㄱ
+### 0.5 ver
 ## Made cheetah dictionary
