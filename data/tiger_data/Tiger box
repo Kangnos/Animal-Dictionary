@@ -1,11 +1,11 @@
 <div class="box">
     <a href="./Siberian tiger" class="image_atag">
-            <div class="image_div">
+        <div class="image_div">
             <img src="../tiger image/sibera(amuru) tiger box image.jpg" alt="" class="AnimalImg">
-            </div>
-            <div class="box_name">
+        </div>
+        <div class="box_name">
             시베리아 호랑이
-            </div>
+        </div>
     </a>
 </div>
 <div class="box">

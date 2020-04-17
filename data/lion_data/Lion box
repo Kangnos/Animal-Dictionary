@@ -1,7 +1,7 @@
 <div class="box">
-    <a href="./Babari lion" class="image_atag">
+    <a href="./Babary lion" class="image_atag">
         <div class="image_div">
-            <img src="../liion image/Babari lion box image.jpg" alt="" class="AnimalImg">
+            <img src="../lion image/Babary lion box image.jpg" alt="" class="AnimalImg">
         </div>
         
         <div class="box_name">
@@ -17,6 +17,7 @@
         
         <div class="box_name">
             케이프 사자
+
         </div>
     </a>
 </div>

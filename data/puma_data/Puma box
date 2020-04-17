@@ -1,0 +1,22 @@
+<div class="box">
+    <a href="./North american puma" class="image_atag">
+        <div class="image_div">
+            <img src="../puma image/North america puma box image.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            북미 퓨마
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./South american puma" class="image_atag">
+        <div class="image_div">
+            <img src="../puma image/South america puma box image3.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            남미 퓨마
+        </div>
+    </a>
+</div>

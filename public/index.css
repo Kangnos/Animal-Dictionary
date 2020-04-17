@@ -50,9 +50,9 @@ a{
     padding-bottom: 50px;
 }
 .title{
-    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-top: 0px;
+    font-size: 30px;
 }
 
 .explain{
@@ -67,5 +67,5 @@ a{
 }
 .image_explain{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 28px;
 }
