@@ -16,3 +16,6 @@
 
 ### 0.5 ver
 ## Made cheetah dictionary
+
+### 0.6 ver
+## Made leopard part, panther
