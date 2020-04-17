@@ -19,3 +19,6 @@
 
 ### 0.6 ver
 ## Made leopard part, panther
+
+### 0.7 ver
+## Made Puma part
