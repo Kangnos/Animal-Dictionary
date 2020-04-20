@@ -25,7 +25,8 @@ app.get('/feliformia', function(request, response){
 });
 app.get('/caniformia', function(request, response){
     var title = "동물의 왕국"
-    var caniformia_index = caniformia_page.HTML(title)
+    var midtitle = '개'
+    var caniformia_index = caniformia_page.HTML(title, midtitle)
     response.send(caniformia_index);
 });
 
@@ -155,6 +156,31 @@ app.get('/feliformia/jaguar/:pageId', function(request, response){
         });
     })
 })
+
+
+// 여기서 부턴 canifoirmia
+app.get('/caniformia/wolf/:pageId', function(request, response){
+    fs.readdir('./data', function(err, filelist){
+        var filteredId = path.parse(request.params.pageId).base
+            fs.readFile(`data/wolf_data/${filteredId}`, 'utf8', function(err, data){
+                if ( err ) throw err;
+                var arr = data.split("\r\n")
+                var title = arr[0]
+                var details = arr[1]
+                var image_link = arr[2]
+                var image_explain = arr[3]
+                var index_tite = '늑대(wolf)'
+                var index_address = '../wolf/Wolf'
+                var midtitle = '개'
+                var midtitle_site_address = 'caniformia'
+                fs.readFile('data/wolf_data/Wolf box','utf8', function(err, body) {
+                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address, midtitle_site_address, midtitle);
+                    response.send(details_page);
+                })
+        });
+    })
+})
+
 
 
 app.listen(3000, function() {
