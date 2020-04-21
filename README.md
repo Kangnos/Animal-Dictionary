@@ -25,3 +25,6 @@
 
 ### 0.8 ver
 ## Extended more
+
+### 0.9 ver
+## Added anaimals in caniformia part
