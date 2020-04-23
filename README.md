@@ -28,3 +28,7 @@
 
 ### 0.9 ver
 ## Added anaimals in caniformia part
+
+### 1.0 ver
+## We made searching function! It is now prototype. 
+
