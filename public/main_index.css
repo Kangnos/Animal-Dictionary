@@ -31,3 +31,7 @@ a{
 .name{
     margin-bottom: 36px;
 }
+
+.box{
+    display: inline-block;
+}
