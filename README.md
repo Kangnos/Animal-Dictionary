@@ -32,3 +32,5 @@
 ### 1.0 ver
 ## We made searching function! It is now prototype. 
 
+### 1.2 ver
+## Finally finished searching function
