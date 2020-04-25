@@ -133,6 +133,27 @@ app.get('/jaguar/:pageId', function(request, response){
 
 
 // 여기서 부턴 canifoirmia
+
+app.get('/fox/:pageId', function(request, response){
+    fs.readdir('./data', function(err, filelist){
+        var filteredId = path.parse(request.params.pageId).base
+            fs.readFile(`data/fox_data/${filteredId}`, 'utf8', function(err, data){
+                if ( err ) throw err;
+                var arr = data.split("\r\n")
+                var title = arr[0]
+                var details = arr[1]
+                var image_link = arr[2]
+                var image_explain = arr[3]
+                var index_tite = '여우(fox)'
+                var index_address = '../fox/Fox'
+                fs.readFile('data/fox_data/Fox box','utf8', function(err, body) {
+                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address);
+                    response.send(details_page);
+                })
+        });
+    })
+})
+
 app.get('/wolf/:pageId', function(request, response){
     fs.readdir('./data', function(err, filelist){
         var filteredId = path.parse(request.params.pageId).base

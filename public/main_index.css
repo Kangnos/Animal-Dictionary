@@ -53,3 +53,7 @@ a{
 .main_container{
     text-align: center;
 }
+
+html{
+    overflow-y: scroll;
+}
