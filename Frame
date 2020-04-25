@@ -65,3 +65,39 @@ fs.readFile(`data/tiger_data/${filteredId}`, 'utf8', function(err, data){
     <img src="../Main image/main_wolf.jpg" class="Animals_main_image">
     <div class ="name">늑대</div>
 </a>
+
+
+
+
+<a href="../tiger/Tiger" title="호랑이(Tiger)" class="box">
+    <img src="../Main image/main_tiger.jpg" class="Animals_main_image">
+    <div class ="name">호랑이</div>
+</a>
+<a href="../leopard/Leopard" title="표범(Leopard)" class="box">
+    <img src="../Main image/main_leopard.jpg" class="Animals_main_image">
+    <div class ="name">표범</div>
+</a>
+<a href="../cheetah/Cheetah" title="치타(Cheetah)" class="box">
+    <img src="../Main image/main_cheetah.jpg" class="Animals_main_image">
+    <div class ="name">치타</div>
+</a>
+<a href="../lion/Lion" title="사자(Lion)" class="box">
+    <img src="../Main image/main_lion.jpg" class="Animals_main_image">
+    <div class ="name">사자</div>
+</a>
+<a href="../puma/Puma" title="퓨마(Puma)" class="box">
+    <img src="../Main image/main_puma.jpg" class="Animals_main_image">
+    <div class ="name">퓨마</div>
+</a>
+<a href="../jaguar/Jaguar" title="재규어(Jaguar)" class="box">
+    <img src="../Main image/main_Jaguar.jpg" class="Animals_main_image">
+    <div class ="name">재규어</div>
+</a>
+<a href="../fox/Fox" title="여우(Fox)" class="box">
+    <img src="../Main image/main_fox.jpg" class="Animals_main_image">
+    <div class ="name">여우</div>
+</a>
+<a href="../wolf/Wolf" title="늑대(Wolf)" class="box">
+    <img src="../Main image/main_wolf.jpg" class="Animals_main_image">
+    <div class ="name">늑대</div>
+</a>
