@@ -34,3 +34,6 @@
 
 ### 1.2 ver
 ## Finally finished searching function
+
+### 1.3 ver
+## Found out Searching bug
