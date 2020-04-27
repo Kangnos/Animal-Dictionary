@@ -37,3 +37,7 @@
 
 ### 1.3 ver
 ## Found out Searching bug. It was scroll bar error, So I make scroll bar fixed
+
+
+### 1.4 ver
+## Just Made Fox part 
