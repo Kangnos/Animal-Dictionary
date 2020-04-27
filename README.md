@@ -36,4 +36,4 @@
 ## Finally finished searching function
 
 ### 1.3 ver
-## Found out Searching bug. It was scroll bar error
+## Found out Searching bug. It was scroll bar error, So I make scroll bar fixed
