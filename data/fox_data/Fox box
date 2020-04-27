@@ -9,3 +9,25 @@
         </div>
     </a>
 </div>
+<div class="box">
+    <a href="./Arctic fox" class="image_atag">
+        <div class="image_div">
+            <img src="https://resize.hswstatic.com/w_907/gif/arctic-fox-1.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            북극 여우
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./Fennec fox" class="image_atag">
+        <div class="image_div">
+            <img src="https://cdn.pixabay.com/photo/2017/10/09/12/02/zoo-2833228_960_720.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            사막 여우
+        </div>
+    </a>
+</div>
