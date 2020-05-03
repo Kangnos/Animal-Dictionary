@@ -174,6 +174,46 @@ app.get('/wolf/:pageId', function(request, response){
     })
 })
 
+app.get('/dog/:pageId', function(request, response){
+    fs.readdir('./data', function(err, filelist){
+        var filteredId = path.parse(request.params.pageId).base
+            fs.readFile(`data/dog_data/${filteredId}`, 'utf8', function(err, data){
+                if ( err ) throw err;
+                var arr = data.split("\r\n")
+                var title = arr[0]
+                var details = arr[1]
+                var image_link = arr[2]
+                var image_explain = arr[3]
+                var index_tite = '개(dog)'
+                var index_address = '../dog/Dog'
+                fs.readFile('data/dog_data/Dog box','utf8', function(err, body) {
+                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address);
+                    response.send(details_page);
+                })
+        });
+    })
+})
+
+
+app.get('/macaw/:pageId', function(request, response){
+    fs.readdir('./data', function(err, filelist){
+        var filteredId = path.parse(request.params.pageId).base
+            fs.readFile(`data/macaw_data/${filteredId}`, 'utf8', function(err, data){
+                if ( err ) throw err;
+                var arr = data.split("\r\n")
+                var title = arr[0]
+                var details = arr[1]
+                var image_link = arr[2]
+                var image_explain = arr[3]
+                var index_tite = '금강앵무(macaw)'
+                var index_address = '../macaw/Macaw'
+                fs.readFile('data/macaw_data/Macaw box','utf8', function(err, body) {
+                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address);
+                    response.send(details_page);
+                })
+        });
+    })
+})
 
 
 app.listen(3000, function() {
