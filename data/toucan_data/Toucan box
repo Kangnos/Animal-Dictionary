@@ -1,0 +1,33 @@
+<div class="box">
+    <a href="./Toco toucan" class="image_atag">
+        <div class="image_div">
+            <img src="https://vignette.wikia.nocookie.net/naturerules1/images/8/8c/78673681.jpg/revision/latest?cb=20190323163514" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            토코투칸
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./Kill-billed toucan" class="image_atag">
+        <div class="image_div">
+            <img src="https://toucanrescueranch.org/wp-content/uploads/2019/02/Toucan-2.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            무지개 왕부리새
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./Channel-billed toucan" class="image_atag">
+        <div class="image_div">
+            <img src="https://charismaticplanet.com/wp-content/uploads/2016/03/9-14.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            홈왕부리새
+        </div>
+    </a>
+</div>
