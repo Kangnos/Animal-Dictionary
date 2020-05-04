@@ -44,3 +44,6 @@
 
 ## 1.5 ver 
 ## Added more Animals
+
+## 1.6 ver
+## The new animal owl
