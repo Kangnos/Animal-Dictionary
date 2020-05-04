@@ -57,3 +57,7 @@ a{
 html{
     overflow-y: scroll;
 }
+
+#Owls_family_image_div{ 
+    margin-top: 40px;
+}

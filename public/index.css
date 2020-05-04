@@ -85,3 +85,6 @@ a{
     font-size: 20px;
     color: blue;
 }
+html{
+    overflow-y: scroll;
+}
