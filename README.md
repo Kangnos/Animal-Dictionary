@@ -43,4 +43,4 @@
 ## Just Made Fox part 
 
 ## 1.5 ver 
-## Added more animals
+## Added more Animals
