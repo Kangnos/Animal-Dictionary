@@ -1,6 +1,9 @@
 # Animal-Dictionary
 
 # It shows details about wild animals such as tiger, leopard, lion even cat
+# Animal dictionary preview
+![Animal Dictionary img](https://user-images.githubusercontent.com/57825621/81032500-09ac1800-8ecb-11ea-9917-1f9f33a31be4.JPG)
+![Animal Dictionary img2](https://user-images.githubusercontent.com/57825621/81032535-32cca880-8ecb-11ea-81c0-17f0ab38f412.JPG)
 
 ### 0.1 ver
 ## Made just frame with HTML and CSS. After made all frame works, make this website 'dynamic' with nodejs
