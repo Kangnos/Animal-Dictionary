@@ -241,26 +241,26 @@ app.get('/owls', function(request, response){
 })
 
 
-app.get('/horn owl/:pageId', function(request, response){
+app.get('/owls/horned%20owl/:pageId', function(request, response){
     fs.readdir('./data', function(err, filelist){
         var filteredId = path.parse(request.params.pageId).base
-            fs.readFile(`data/horn owl_data/${filteredId}`, 'utf8', function(err, data){
+            fs.readFile(`data/horned owl_data/${filteredId}`, 'utf8', function(err, data){
                 if ( err ) throw err;
                 var arr = data.split("\r\n")
                 var title = arr[0]
                 var details = arr[1]
                 var image_link = arr[2]
                 var image_explain = arr[3]
-                var index_tite = '부엉이(Horn Owl)'
-                var index_address = '../horn owl/Horn owl'
-                fs.readFile('data/horn owl_data/Horn owl box','utf8', function(err, body) {
+                var index_tite = '부엉이(Horned Owl)'
+                var index_address = '../horned owl/Horned owl'
+                fs.readFile('data/horned owl_data/Horned owl box','utf8', function(err, body) {
                     var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address);
                     response.send(details_page);
                 })
         });
     })
 })
-app.get('/burn owl/:pageId', function(request, response){
+app.get('/owls/burn owl/:pageId', function(request, response){
     fs.readdir('./data', function(err, filelist){
         var filteredId = path.parse(request.params.pageId).base
             fs.readFile(`data/burn owl_data/${filteredId}`, 'utf8', function(err, data){
