@@ -1,0 +1,44 @@
+<div class="box">
+    <a href="./Eagle owl" class="image_atag">
+        <div class="image_div">
+            <img src="https://pbs.twimg.com/media/EM9DjWRVUAA_LA4.png" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            수리부엉이
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./Brown-hawk owl" class="image_atag">
+        <div class="image_div">
+            <img src="https://t1.daumcdn.net/cfile/tistory/136D11384FF8A02505" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            솔부엉이
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./Short-eared owl" class="image_atag">
+        <div class="image_div">
+            <img src="https://lh3.googleusercontent.com/proxy/Rg9c2vMFUaH7_eTMu-V9CHZP4xqLwfQqkYhMSQB02FTOvogd6gtL9IjePpnEgxjFTKg1pKAFrsoNX_Bl6w016TemNzeg2o7Z489Sn2QaD-k1j87vJtCZJDPLmDcJxY4" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            쇠부엉이
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./Long-eared owl" class="image_atag">
+        <div class="image_div">
+            <img src="https://t1.daumcdn.net/cfile/tistory/998C1E455AA5487F1D" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            칡부엉이
+        </div>
+    </a>
+</div>

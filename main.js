@@ -5,6 +5,7 @@ var app = express();
 var explain_page = require('./lib/explain.js');
 var main_page = require('./lib/main_index.js');
 var owl_page = require('./lib/Owl_index.js');
+var owl_expalin_page = require('./lib/Owl_explain.js')
 var path = require('path')
 var compression = require('compression');
 app.use(compression());
@@ -241,7 +242,7 @@ app.get('/owls', function(request, response){
 })
 
 
-app.get('/owls/horned%20owl/:pageId', function(request, response){
+app.get('/horned%20owl/:pageId', function(request, response){
     fs.readdir('./data', function(err, filelist){
         var filteredId = path.parse(request.params.pageId).base
             fs.readFile(`data/horned owl_data/${filteredId}`, 'utf8', function(err, data){
@@ -252,28 +253,32 @@ app.get('/owls/horned%20owl/:pageId', function(request, response){
                 var image_link = arr[2]
                 var image_explain = arr[3]
                 var index_tite = '부엉이(Horned Owl)'
-                var index_address = '../horned owl/Horned owl'
+                var index_address = '../horned%20owl/Horned_owl'
+                var midtitle = '부엉이의 왕국'
+                var midtitle_site_address = '../owls'
                 fs.readFile('data/horned owl_data/Horned owl box','utf8', function(err, body) {
-                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address);
+                    var details_page = owl_expalin_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address, midtitle_site_address, midtitle);
                     response.send(details_page);
                 })
         });
     })
 })
-app.get('/owls/burn owl/:pageId', function(request, response){
+app.get('/burned%20owl/:pageId', function(request, response){
     fs.readdir('./data', function(err, filelist){
         var filteredId = path.parse(request.params.pageId).base
-            fs.readFile(`data/burn owl_data/${filteredId}`, 'utf8', function(err, data){
+            fs.readFile(`data/burned owl_data/${filteredId}`, 'utf8', function(err, data){
                 if ( err ) throw err;
                 var arr = data.split("\r\n")
                 var title = arr[0]
                 var details = arr[1]
                 var image_link = arr[2]
                 var image_explain = arr[3]
-                var index_tite = '올빼미(Burn Owl)'
-                var index_address = '../burn owl/Burn owl'
-                fs.readFile('data/burn owl_data/Burn owl box','utf8', function(err, body) {
-                    var details_page = explain_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address);
+                var index_tite = '올배미(Burned Owl)'
+                var index_address = '../burned%20owl/Burned_owl'
+                var midtitle = '부엉이의 왕국'
+                var midtitle_site_address = '../owls'
+                fs.readFile('data/burned owl_data/Burned owl box','utf8', function(err, body) {
+                    var details_page = owl_expalin_page.HTML(index_tite, title, details, image_link, image_explain, body, index_address, midtitle_site_address, midtitle);
                     response.send(details_page);
                 })
         });
