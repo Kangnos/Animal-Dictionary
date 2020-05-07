@@ -1,0 +1,34 @@
+<div class="box">
+    <a href="./Barn owl" class="image_atag">
+        <div class="image_div">
+            <img src="https://animals.net/wp-content/uploads/2018/09/Barn-Owl-3-650x425.jpg" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            가면 올빼미
+        </div>
+    </a>
+</div>
+<div class="box">
+    <a href="./Snowy owl" class="image_atag">
+        <div class="image_div">
+            <img src="https://t1.daumcdn.net/cfile/tistory/22172B4A584C079725" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            흰 올빼미
+        </div>
+    </a>
+</div>
+
+<div class="box">
+    <a href="./Ural owl" class="image_atag">
+        <div class="image_div">
+            <img src="https://mn.kbs.co.kr/data/news/2017/06/25/3504400_zwl.png" alt="" class="AnimalImg">
+        </div>
+        
+        <div class="box_name">
+            긴점박이 올빼미
+        </div>
+    </a>
+</div>
